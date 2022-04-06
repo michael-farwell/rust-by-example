@@ -1,5 +1,6 @@
 mod hello;
 mod primitives;
+mod custom_types;
 
 fn main() {
     println!("-Hello World-");
@@ -23,4 +24,19 @@ fn main() {
     primitives::tuples();
     println!("\n-Arrays & Slices-");
     primitives::arrays_and_slices();
+
+    println!("\n-Structures-");
+    custom_types::structures();
+    println!("\n-Enums-");
+    custom_types::enums();
+    println!("\n-Type Aliases-");
+    custom_types::aliases();
+    println!("\n-Use-");
+    custom_types::_use();
+    println!("\n-C-like-");
+    custom_types::c_like();
+    println!("\n-Link-list-");
+    custom_types::linked_list();
+    println!("\n-Constants-");
+    custom_types::constants();
 }

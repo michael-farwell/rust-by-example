@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 use std::fmt::{Display, Formatter};
 use std::mem;
 
